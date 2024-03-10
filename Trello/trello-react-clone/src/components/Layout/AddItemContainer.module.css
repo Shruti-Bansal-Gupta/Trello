@@ -1,0 +1,19 @@
+.add-item-container {
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+.add-item-container button {
+	align-self: flex-end;
+	margin-top: 8px;
+	background: #0079fb;
+	color: #fff;
+	border: 1px solid;
+	padding: 8px;
+	border-radius: 6px;
+}
+
+.add-item-container textarea {
+	height: 75px;
+}
