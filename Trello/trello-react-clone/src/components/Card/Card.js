@@ -12,7 +12,7 @@ const Card = (props) => {
 					{...provided.dragHandleProps}
 					{...provided.draggableProps}>
 					<div className={classes.card} key={props.id}>
-						{props.title}
+						{props.title} Hello
 					</div>
 				</div>
 			)}
